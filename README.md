@@ -1,7 +1,7 @@
 # blogs  
 个人的学习笔记  
 
-##Java
+## Java
 1、JVM、JRE和JDK  
 (1) JVM : Java虚拟机  
 (2) JRE : Java运行环境  
