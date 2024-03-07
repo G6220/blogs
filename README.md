@@ -60,3 +60,8 @@
 (4) Queue : LinkedList、PriorityQueue | offer、poll、peek  
 (5) Map : HashMap、TreeMap | put、remove、get  
 (6) Stack : push、pop、peek
+
+8、垃圾回收  
+(1)原理:周期性扫描对象的内存区，将没有被引用的对象收集起来，定期释放内存空间  
+(2)显示调用:System.gc()  
+(3)撤销:finalize()  
