@@ -47,3 +47,8 @@
 (6) 竞态条件 : 多个线程同时访问数据，其中一个线程修改了数据导致其他线程读取了错误数据  
 (7) 同步 : Synchronized、ReentrantLock、ReadWriteLock、Semaphore、CountDownLatch  
 (8) 线程方法 : start、join、sleep、interrupt、getState、setPriority
+
+6、多继承  
+(1) 类 : 不能被多继承  
+(2) 接口 : 可以被多继承  
+(3) 原因 : 接口没有实现方法，不会造成方法调用的冲突
