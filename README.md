@@ -55,8 +55,8 @@
 
 7、常见数据结构  
 (1) Array : length  
-(2) List : ArrayList、LinkedList  add、remove、get  
-(3) Set : HashSet、TreeSet  add、remove、contains  
-(4) Queue : LinkedList、PriorityQueue  offer、poll、peek  
-(5) Map : HashMap、TreeMap  put、remove、get  
+(2) List : ArrayList、LinkedList | add、remove、get  
+(3) Set : HashSet、TreeSet | add、remove、contains  
+(4) Queue : LinkedList、PriorityQueue | offer、poll、peek  
+(5) Map : HashMap、TreeMap | put、remove、get  
 (6) Stack : push、pop、peek
