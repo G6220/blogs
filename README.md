@@ -52,3 +52,11 @@
 (1) 类 : 不能被多继承  
 (2) 接口 : 可以被多继承  
 (3) 原因 : 接口没有实现方法，不会造成方法调用的冲突
+
+7、常见数据结构  
+(1) Array : length  
+(2) List : ArrayList、LinkedList  add、remove、get  
+(3) Set : HashSet、TreeSet  add、remove、contains  
+(4) Queue : LinkedList、PriorityQueue  offer、poll、peek  
+(5) Map : HashMap、TreeMap  put、remove、get  
+(6) Stack : push、pop、peek
