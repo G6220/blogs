@@ -55,18 +55,18 @@
 
 ### 常见数据结构  
 1、Array : length  
-2、List : 
-(1) 常用实现类 : ArrayList、LinkedList 
-(2) 常用方法 : add、remove、get  
-3、Set : 
-(1) 常用实现类 : HashSet、TreeSet 
-(2) 常用方法 : add、remove、contains  
-4、Queue : 
-(1) 常用实现类 : LinkedList、PriorityQueue 
-(2) 常用方法 : offer、poll、peek  
-5、Map : 
-(1) 常用实现类 : HashMap、TreeMap 
-(2) 常用方法 : put、remove、get  
+2、List :   
+(1) 常用实现类 : ArrayList、LinkedList    
+(2) 常用方法 : add、remove、get    
+3、Set :   
+(1) 常用实现类 : HashSet、TreeSet   
+(2) 常用方法 : add、remove、contains     
+4、Queue :  
+(1) 常用实现类 : LinkedList、PriorityQueue    
+(2) 常用方法 : offer、poll、peek   
+5、Map :  
+(1) 常用实现类 : HashMap、TreeMap    
+(2) 常用方法 : put、remove、get   
 6、Stack : push、pop、peek
 
 ### 垃圾回收  
