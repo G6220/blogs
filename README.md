@@ -98,6 +98,6 @@
 
 4、双向链表  
 (1) 构成要素 : 数据(其他类)、两个当前类的指针/引用  
-(2) 方法 : getPrior、getNext、setPrior、setNext、add、delete
-(3) 特点 : 容易逆序遍历、插入和删除更高效
-(4) 使用场景 : LRU缓存淘汰、页面置换
+(2) 方法 : getPrior、getNext、setPrior、setNext、add、delete  
+(3) 特点 : 容易逆序遍历、插入和删除更高效  
+(4) 使用场景 : LRU缓存淘汰、页面置换  
