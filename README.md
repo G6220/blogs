@@ -139,7 +139,7 @@
 (1) 时间复杂度 : O(n²)
 (2) 空间复杂度 : O(1)
 (3) 代码实现 :  
-`for(int i = 0;i < array.length - 1;i++)
+```for(int i = 0;i < array.length - 1;i++)
 {
     for(int j = 0;j < array.length - i - 1;j++)
     {
@@ -151,4 +151,4 @@
         }
     }
 }
-`
+```
