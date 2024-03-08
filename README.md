@@ -179,7 +179,7 @@ for (int i = 0; i < array.length - 1; i++)
 (1) 时间复杂度 : 最好为O(n)，最坏为O(n²)  
 (2) 空间复杂度 : O(1)  
 (3) 稳定性 : 稳定  
-(4) 代码实现:  
+(4) 代码实现 :  
 ```
 for (int i = 1; i < array.length; i++)
  {
