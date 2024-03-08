@@ -101,3 +101,10 @@
 (2) 方法 : getPrior、getNext、setPrior、setNext、add、delete  
 (3) 特点 : 容易逆序遍历、插入和删除更高效  
 (4) 使用场景 : LRU缓存淘汰、页面置换  
+
+### 栈
+1、顺序栈  
+(1) 构成要素 : 数组、栈的大小、当前栈元素的数量  
+(2)  方法 : getSize、isEmpty、expandSpace、push、pop、peek  
+(3) 特点 : 大小固定，容量不够时需要扩容  
+(4) 使用场景 : 大小确定，空间紧张，需要频繁读取栈顶，不需要频繁插入、删除元素  
