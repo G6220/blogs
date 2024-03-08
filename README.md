@@ -157,8 +157,8 @@ for (int i = 0; i < array.length - 1; i++)
 2、选择排序  
 (1) 时间复杂度 : O(n²)  
 (2) 空间复杂度 : O(1)  
-(3) 稳定性 : 不稳定，a b 1，假设a = b > 1 从小到大排序，则排序后为 1 b a  
-(3) 代码实现 :  
+(3) 稳定性 : 不稳定，a b 1，假设a = b > 1，从小到大排序，则排序后为 1 b a  
+(4) 代码实现 :  
 ```
 for (int i = 0; i < array.length - 1; i++)
  {
@@ -173,5 +173,23 @@ for (int i = 0; i < array.length - 1; i++)
 	int temp = array[i];
 	array[i] = array[index];
 	array[index] = temp;
+}
+```
+3、插入排序  
+(1) 时间复杂度 : 最好为O(n)，最坏为O(n²)  
+(2) 空间复杂度 : O(1)  
+(3) 稳定性 : 稳定  
+(4) 代码实现:  
+```
+for (int i = 1; i < array.length; i++)
+ {
+	int temp = array[i];
+	int j = i - 1;
+	if (j >= 0 && array[j] > temp) 
+       {
+		array[j] = array[j + 1];
+		j--;
+	}
+	array[j + 1] = temp;
 }
 ```
